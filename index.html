@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- conexion a nuestro css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Restofan</title>
+</head>
+
+<body>
+
+    <!-- header menu de navegacion -->
+    <header class="header" id="header">
+        <nav>
+            <a href="./index.html">
+                <span class="second-color">Resto</span>fan
+            </a>
+
+            <ul>
+                <li>
+                    <a href="./index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./pages/productos.html">Nuestros productos</a>
+                </li>
+                <li>
+                    <a href="./pages/galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="./pages/contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- contenido principal -->
+
+    <main class="main" id="main"> <!-- main = etiqueta que encierra contenido principal-->
+        <section class="hero">
+            <div class="hero__contenedor">
+                <h1 class="hero__titulo">Bienvenidos a <span class="second-color">Resto</span>fan</h1>
+                <p>Reserve su mesa en nuestro restaurante hoy mismo y <span class="second-color">disfrute</span> de una
+                    <span class="second-color">comida deliciosa</span> y <span class="second-color">un excelente
+                        servicio.</span>
+                </p>
+                <a href="./pages/contacto.html" class="btn">
+                    Reservar</a>
+            </div>
+        </section>
+
+
+        <!-- seccion sobre nosotros  -->
+        <section class="nosotros">
+            <div class="nosotros__info">
+
+                <h2><span class="second-color">Sobre</span> Nosotros</h2>
+
+                <p>Restofan está compuesto por <span class="second-color">profesionales dedicados</span> y apasionados
+                    por la comida y el servicio al
+                    cliente desde 2013. Contamos con un equipo de cocina experimentado y creativo, que prepara platos
+                    deliciosos utilizando ingredientes frescos y de <span class="second-color">alta calidad.</span>
+                    También tenemos un equipo de <span class="second-color">servicio
+                        amigable y atento,</span> que se asegura de que todos nuestros clientes tengan una excelente
+                    experiencia en
+                    nuestro restaurante. Además, nuestro equipo trabaja en estrecha colaboración para garantizar que
+                    cada detalle de nuestro servicio sea perfecto, desde la presentación de los platos hasta la <span
+                        class="second-color">atención
+                        personalizada a cada cliente.</span> </p>
+            </div>
+            <img src="./assets/nosotros.jpg" alt="nuestro equipo">
+        </section>
+
+        <section class="fondo-fijo">
+
+        </section>
+        <!-- seccion nuestros clientes -->
+        <section class="clientes">
+            <h2><span class="second-color">Nuestros </span> clientes</h2>
+
+            <div class="cards">
+
+                <!-- card de rate -->
+                <div class="card">
+
+                    <img src="./assets/rate1.jpg" alt="hombre comiendo">
+
+                    <div class="card__body">
+                        <h3> <span class="second-color">Marcos </span> Rodrigues</h3>
+
+                        <p>Rate: <span class="second-color">5/5</span></p>
+
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis iusto unde laboriosam harum
+                            et deleniti mollitia blanditiis est dolore. Unde?</p>
+                    </div>
+
+                </div>
+
+
+                <!-- card de rate -->
+                <div class="card">
+                    <img src="./assets/rate2.jpg" alt="hombre comiendo">
+                    <div class="card__body">
+                        <h3> <span class="second-color">Maximo</span> Sanchez</h3>
+                        <p>Rate: <span class="second-color">5/5</span></p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis iusto unde laboriosam harum
+                            et deleniti mollitia blanditiis est dolore. Unde?</p>
+                    </div>
+                </div>
+
+
+                <!-- card de rate -->
+                <div class="card card--2">
+                    <img src="./assets/rate3.jpg" alt="hombre comiendo">
+                    <div class="card__body card--body-2">
+                        <h3> <span class="second-color">Pedro </span> Alvear</h3>
+                        <p>Rate: <span class="second-color">5/5</span></p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis iusto unde laboriosam harum
+                            et deleniti mollitia blanditiis est dolore. Unde?</p>
+
+                        <button class="btn">Me gusta</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!--Pie de pagina -->
+    <footer>
+        <section>
+            <h3><span class="second-color">Resto</span>fan </h3>
+            <ul>
+                <li>
+                    <a href="./index.html" class="footer-link">Inicio</a>
+                </li>
+                <li>
+                    <a href="./pages/productos.html" class="footer-link">Nuestros productos</a>
+                </li>
+                <li>
+                    <a href="./pages/contacto.html" class="footer-link">Contacto</a>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h3><span class="second-color">Nuestras </span>redes </h3>
+            <a href="" class="footer-link">Facebook</a>
+            <a href="" class="footer-link">Instagram</a>
+            <a href="" class="footer-link">Twitter</a>
+        </section>
+
+        <section>
+            <h3> <span class="second-color">Unirme al</span> newsletter</h3>
+            <form action="">
+                <label for="email">email</label>
+                <input type="email" name="email" placeholder="ingresar email">
+                <button type="submit" class="btn">Unirme</button>
+            </form>
+
+        </section>
+    </footer>
+
+
+
+</body>
+
+</html>
