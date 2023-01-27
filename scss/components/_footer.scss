@@ -1,0 +1,55 @@
+/* FOOTER */
+
+footer {
+    background: $color-main;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        font-family: $font-main;
+        font-size: 24px;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            input {
+                background-color: $color-main;
+                color: #fff;
+                padding: 10px;
+                outline: none;
+                font-family: $font-main;
+            }
+
+            button.btn {
+                width: 100%;
+                font-size: 24;
+                padding: 5px;
+            }
+            
+        }
+    }
+
+    .footer-link {
+        text-decoration: none;
+        color: #fff;
+        list-style: none;
+    }
+}
+
+
+
+@each $redsocial, $color in $redes{
+
+    .fa-square-#{$redsocial} {
+        color: $color;
+        padding: 10px;
+        font-size: 224px;
+    }
+
+}

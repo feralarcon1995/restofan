@@ -1,0 +1,103 @@
+/* PAGINA PRODUCTOS*/
+
+.tarjetas {
+    background-color: $color-main;
+    width: 100%;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: #eee;
+    width: 30%;
+}
+
+.tarjeta img {
+    @extend %imagen;
+}
+
+.tarjeta__contenedora {
+    padding: 10px;
+    font-family: $font-main;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tarjeta__contenedora a {
+    color: $color-second;
+    background-color: $color-main;
+    width: 100px;
+    align-self: flex-end;
+    padding: 10px;
+    text-align: center;
+}
+
+.tarjeta__contenedora p {
+    padding: 10px 0;
+    border-top: 1px solid $color-main;
+    border-bottom: 1px solid $color-main;
+    align-self: flex-end;
+    width: 100%;
+}
+
+.tarjetas__divisor {
+    background-image: url(../assets/hero.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    color: #fff;
+    font-family: $font-main;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ejemplo-sass{
+
+    @include flex(flex,column,wrap, 10px, center);
+    background-color: #fff;
+    padding: 40px;
+
+    .caja{
+        @include tamanio(600px, 300px, rgb(110, 27, 27) );
+    }   
+
+    .caja3{
+        @include tamanio(600px, 700px , rgb(18, 57, 18));
+
+    }
+}
+
+.ejemplo-sass2{
+    @include flex(flex,row,wrap,10px, center);
+    background-color: rgb(36, 36, 127);
+    padding: 30px;
+
+
+    .caja{
+        @include tamanio(600px, 300px, rgb(110, 27, 27) );
+        padding: 10px;
+        color: #fff;
+    }   
+
+    // .caja3{
+    //     width: 600px * 2;
+    //     height: 200px;
+    //     background-color: rgb(202, 161, 111);
+    // }
+
+    .caja3{
+       @extend .caja;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+}

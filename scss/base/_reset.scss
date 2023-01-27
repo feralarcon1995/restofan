@@ -1,0 +1,23 @@
+/*incluir fuente desde google font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@900&display=swap');
+
+/*incluir fuente localmente desde nuestra pc*/
+@font-face {
+    font-family: bebas;
+    src: url(../assets/font/BebasNeue-Regular.ttf);
+}
+
+/* * = selector universal para reseteo de estilos por default del html*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

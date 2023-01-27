@@ -1,0 +1,78 @@
+
+
+/* nosotros  */
+
+.nosotros {
+    background: $color-main;
+    display: flex;
+    padding: 30px;
+    gap: 10px;
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    max-height: 100%;
+}
+
+.nosotros__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 40%;
+
+}
+
+.nosotros__info h2 {
+    font-family: $font-main;
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.nosotros__info p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.nosotros img {
+    width: 40%;
+    height: 80%;
+    object-fit: cover;
+}
+
+/* FONDO FIJO  */
+.fondo-fijo {
+    background-image: url(../assets/bgfixed.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+
+/* RATE */
+
+.clientes {
+    background: $color-main;
+    color: #ffff;
+    padding: 20px;
+    height: 100%;
+}
+
+.clientes h2 {
+    font-family: $font-main;
+    font-size: 40px;
+    padding: 20px 20px;
+}
+
+
+.cards {
+    display: flex;
+    color: #000;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+}
